@@ -1,0 +1,87 @@
+.layout {
+    display: flex;
+    background-color: #0a0a0a;
+    min-height: 100vh;
+    width: 100%;
+    color: #ffffff;
+}
+
+.mainContent {
+    flex: 1;
+    margin-left: 260px;
+    padding: 3rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.userAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a0a0a0;
+    font-weight: 700;
+}
+
+.searchBar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.searchInput, .filterInput {
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.searchInput {
+    flex: 1;
+}
+
+.trainingTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.trainingTable th, .trainingTable td {
+    text-align: left;
+    padding: 1.5rem;
+    border-bottom: 1px solid #333333;
+}
+
+.trainingTable th {
+    color: #a0a0a0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.trainingTable tr:hover td {
+    background-color: #222;
+}
